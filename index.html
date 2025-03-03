@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ognjen Stanic | Aspiring Game Maker</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <header>
+        <div class="big-image"></div>
+        <div class="textful">
+            <div class="row header-text-container">
+                <div class="big-name">
+                    <h1 id="showcase">Ognjen Stanic</h1>
+                    <p>Aspiring Game-maker, creator of worlds and experiences.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="navigations">
+                    <nav>
+                        <a href="#about" class="nav_link">About</a>
+                        <a href="#game_projects" class="nav_link">Game Projects</a>
+                        <a href="#other_projects" class="nav_link">Other Projects</a>
+                        <a href="#contacts" class="nav_link">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">   
+        <section class="about" id="about">
+            <div class="row">
+                <h2>About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Hello! I am Ognjen, an aspiring game designer and creator of worlds, experiences, adventures and stories, to captivate the hearts and minds of as many people I can reach.<br>
+                            You, the reader have found my online portfolio! Within I have included a handful of projects which showcase a variety of skills, certain achievements or breakthroughs in my personal game-making journey.
+                            Each project will contain a piece of media related to the game as well as a short summary of what the project is about, how or for what it was made, while the detailed view of each will focus more about the approaches and challenges I faced while making them.
+                            Detailed view will also showcase more media from the game, gameplay or noteworthy interactions.
+                        </p>
+                        <!------maybe add link to resume-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="game_projects" id="game_projects">
+            <div class="row">
+                <h2>Game Projects</h2>
+                <div class="games">
+                    <h3>Expired Ink</h3>
+                    <div class="extra_organizer">
+                        <div class="subrow">
+                            <div class="subcolumn subleft">
+                                <div class="vanishing_text_block" id="prim_oneT">
+                                    <p>
+                                        Expired Ink is a short 2D light RPG and Turn Based Combat game about an individual trapped within their own mind. Explore the rigid landscape of their mind, monochrome in white and black.
+                                        Find items that make you stronger and fight emotions given monstrous form.<br>
+                                        This game was made for the GodotWildJam number 69 with a theme of "VOID". It achieved moderate results, but a high level of praise among other participants as well as from outside players.
+                                    </p>
+                                </div>
+                            </div>
+                                <div class="subcolumn subright">
+                                    <div class="vanishing_image_block" id="prim_oneI">
+                                        <img src="images/ExpiredInkIcon.png">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="subrow">
+                            <div class="subcolumn subleft">
+                                <div class="vanishing_text_block" id="scnd_oneT">
+                                    <p>
+                                        The theme being "VOID" was very open to interpretation, as 'what' a void is depends a lot on context. Is a void more like, de-void of something? Or is it more like an endless expanse of nothingness, or lack of something? These were some of the design questions and hurdles I faced while deciding on how to tackle the theme.
+                                        Emotions is where I landed, or rather the emotional state of 'feeling a void inside your heart'. With this concept it was important to communicate this in a non intrusive way to the player, and the next step was decisions on the goal of the game.<br><br>
+                                        What better way to show the fight against negative emotions and seeing the character grow than to put them into a light RPG setting, a genre defined by growing more and more powerful. Together with a turn based system for battle, you have a pretty classic TBSRPG.
+                                        Making a turn based system proved to be very difficult as it needed to be modular, so that if more enemy types were needed to be added it wouldn't be difficult. However on the other hand, if every encounter is only a TBS battle then enemies all share common traits, which allows for inheritance from a base parent that holds all common attributes like how to execute attacks or take damage.<br><br>
+                                        Most importantly, much like how a mind isn't just a hallway of thoughts it was important to practice good level design such that players feel good traversing it, finding secrets. Will a hole be a game over or a new path? 'Did I see a platform here before? Is it under me now?' is the type of question I aimed for when doing level desing. Topping it off with a bit of lighthearted poetic messaging, we have a strong small-scale RPG about emotions and fighting through those that tend to cripple us.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="subcolumn subright">
+                                <div class="vanishing_image_block" id="scnd_oneI">
+                                    <div class="subrow">
+                                        <img src="images/ExpiredInkGif1.gif">
+                                        <img src="images/ExpiredInkGif2.gif">
+                                        <img src="images/ExpiredInkGif3.gif">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="subrow">
+                            <div class="button_holster">
+                                <button id="but1" onclick="vanishBlock1()" class="btn">
+                                    Detailed View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+<!--------->
+                <div class="games">
+                    <h3>Size Share</h3>
+                    <div class="extra_organizer">
+                        <div class="subrow">
+                            <div class="subcolumn subleft">
+                                <div class="vanishing_text_block" id="prim_twoT">
+                                    <p>
+                                        Size Share presents itself as a simple 2D puzzle platformer, where you play as a small box shaped robot with a special ability to exchange their size with other interactable objects, whilst able to lift and carry objects smaller than it.
+                                        Change sizes with objects to climb them, to change how big they are or two swap the sizes of two different objects in order to reach the door to the next level, and escape the factory!<br>
+                                        Made for the GMTK Game Jam of 2024, one of the biggest game jams hosted every year, garnering a big amount of praise and an overall spot of #1399 out of 7578 entries! Theme for this jam was "Built to Scale".
+                                    </p>
+                                </div>
+                            </div>
+                                <div class="subcolumn subright">
+                                    <div class="vanishing_image_block" id="prim_twoI">
+                                        <img src="images/SizeShareIcon.png">
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="subrow">
+                            <div class="subcolumn subleft">
+                                <div class="vanishing_text_block" id="scnd_twoT">
+                                    <p>
+                                        "Built to Scale", an oddly difficult theme for something that is very open ended. What can scale? Is it more a metaphorical scale or a physical one? Some obvious choices there like an RPG character scaling in level, or perhaps a building that just gets built taller, all very tempting.
+                                        But I found it much easier for this theme to decide what kind of game I wanted to make first, and then fit it into the theme. Therefor, a puzzle platformer was picked as I've not made a puzzle game prior. But what type of scale could be fun to puzzle around? The size of the character and their surroundings!<br><br>
+                                        Making sure that the player controls well, and is thought all the necessary mechanics easily was of utmost importance. While simply shrinking or growing is easy to understand, how it plays into the game can be difficult to convey. The player itself was pretty simple, it only really needed to jump, carry things, move around, but the real challenge in all of it was the levels themselves.
+                                        Creating puzzles of any kind is far more difficult than it may seem. Being able to not only place yourself into the shoes of the player, but also distance yourself from already knowing solutions so that you can actually test levels, it takes a lot of time and care. Something I did not have a lot of in the 4-day jam.<br><br>
+                                        Still, importance of making the player FEEL smart was a priority of mine. Some levels were straight forward while some other ones were possibly very confusing or had red herrings for the player to be stuck with. While not every level had an increasing amount of objects to work with, sometimes even a single object is enough to make a player feel smart.
+                                        A noteworthy one is where there was a moving platform, with no other information given, the player was meant to feel smart when they tried to change sizes with said platform to beat the level. It was an incredibly successful level for feeling smart.
+                                        My level design was put through a real test with this one, but with comments of players expressing how they felt good solving puzzles or seeing the solutions proves I did well.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="subcolumn subright">
+                                <div class="vanishing_image_block" id="scnd_twoI">
+                                    <div class="subrow">
+                                        <img src="images/SizeShareGif1.gif">
+                                        <img src="images/SizeShareGif2.gif">
+                                        <img src="images/SizeShareGif3.gif">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="subrow">
+                            <div class="button_holster">
+                                <button id="but2" onclick="vanishBlock2()" class="btn">
+                                    Detailed View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+<!--------------------->
+            <div class="games">
+                <h3>Scarlet Flow</h3>
+                <div class="extra_organizer">
+                    <div class="subrow">
+                        <div class="subcolumn subleft">
+                            <div class="vanishing_text_block" id="prim_threeT">
+                                <p>
+                                    Scarlet Flow stands as a sort of experimental game made for a type of game-jam I've never participated in before. It was a jam with the goal to create games that are made with the goal to be speedran (to be completed as fast as possible). With the theme of "Flow", it was difficult to decide what should flow.
+                                    Simply having mechanics that behave like a river, flow of water, flow of time, all felt too simple. Such I decided to create a faster paced semi-puzzle platformer where the player uses their own health to create platforms they can stand on, having to balance not dying whilst having enough flooring to beat a level.<br>
+                                    Made for the SpeedJam#8.
+                                </p>
+                            </div>
+                        </div>
+                            <div class="subcolumn subright">
+                                <div class="vanishing_image_block" id="prim_threeI">
+                                    <img src="images/ScarletFlowIcon.png">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="subrow">
+                        <div class="subcolumn subleft">
+                            <div class="vanishing_text_block" id="scnd_threeT">
+                                <p>
+                                    Scarlet is a word often used to be poetical about the color of blood. Such, "Scarlet Flow" as a name would be perfect to match what the game is all about, sacrificing your own health to create temporary helping platforms, such that you can jump to the doorway leading further.
+                                    While it is a 2D platformer, a genre I have good practice in, it wouldn't be very interesting just to jump around and sometimes take damage to create a solution that helps traverse the room youre in. Instead, I decided to approach from a new angle.
+                                    <br><br>
+                                    In the game, the player can eventually get to the ability that summons a flying knife controlled by the players mouse movement. This knife while out slows the game down to a crawl so that the player can precisely decide the direction in which they will slash at their own player character.
+                                    This slash then, depending on the trajectory it takes, decides where the platform will be created.
+                                    <br><br>
+                                    The mechanic of slashing off platforms to jump on could've ended there, however it goes a bit deeper. The player can decide how strongly they wish to cut, each level causing an additional point of damage to the player but changing the type of platform they create.
+                                    Where sacrificing one health point yields a small platform, sacrificing something like five yields a bouncing platform allowing the player to jump much higher than normal. This is also a balancing factor as I can control how much health points the player has at a given point in the game, awarding them more when I want to teach them the new mechanics.
+                                    <br><br>
+                                    Lastly, since this jam was focused on speedrunning, one of the major rules was a necessity for a leaderboard. This was a challenge as I've never tried to save data especially on something hosted online. Learning how to locally save information like times and names, displaying the info and also making sure it works on the web using cookies was not too difficult but very rewarding.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="subcolumn subright">
+                            <div class="vanishing_image_block" id="scnd_threeI">
+                                <div class="subrow">
+                                    <img src="images/ScarletFlowGif1.gif">
+                                    <img src="images/ScarletFlowGif2.gif">
+                                    <img src="images/ScarletFlowGif3.gif">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="subrow">
+                        <div class="button_holster">
+                            <button id="but3" onclick="vanishBlock3()" class="btn">
+                                Detailed View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="other_projects" id="other_projects">
+            <div class="row">
+                <h2>Other Projects</h2>
+                <div class="others">
+                    <h3>3D Modeling</h3>
+                    <div class="extra_organizer">
+                        <div class="subrow">
+                            <div class="subcolumn subleft">
+                                <div class="vanishing_text_block" id="prim_fourT">
+                                    <p>
+                                        3D Modeling is a skill I started to learn and develop first in University, but after in my free time. With the goal to branch into the third dimension for games, there is a lot to learn in terms of modeling, rigging, animation, working with materials and textures. A lot of these things are either not something you do, or are vastly different in, digital art which is something I do as well. Much like how all art in the games I make is made by hand I hope to also use these skills to make 3D games in the future.
+                                    </p>
+                                </div>
+                            </div>
+                                <div class="subcolumn subright">
+                                    <div class="vanishing_image_block" id="prim_fourI">
+                                        <img src="images/BlenderView.png">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="others">
+                    <h3>Portfolio Website</h3>
+                    <div class="extra_organizer">
+                        <div class="subrow">
+                            <div class="subcolumn subleft">
+                                <div class="vanishing_text_block" id="prim_fourT">
+                                    <p>
+                                        It can sometimes be difficult to showcase or just show the work you do and can do to others, especially in a professional setting.
+                                        To aid in this I decided to study html, css and some surface level JavaScript in order to make this very website. Through it, I can easily show my works to recruiters or other designers without having to ask them to visit some other website in order to see them.
+                                        It was a lot to learn but now I feel much more comfortable with making web pages, expanding and improving this one or branching into a more elaborate array of interconnected pages.
+                                    </p>
+                                </div>
+                            </div>
+                                <div class="subcolumn subright">
+                                    <div class="vanishing_image_block" id="prim_fourI">
+                                        <img src="images/WebsitePrew.png">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+        <section class="contacts" id="contacts">
+            <div class="row">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>
+                            If you wish to come into contact with me, to ask me anything, are a recruiter interested in my skills or simply wish to say 'Hi', the best way you could do so is using the email provided in the button below.
+                            And if you would like to try any of the games listed above, or see more of what I've made that there wasn't a section for, you may visit my itch.io page linked below next to the linkedin one.
+                        </p>
+                    </div>
+                </div>
+                <a href="mailto:stons.srbija@gmail.com" class="mail_block">stons.srbija@gmail.com</a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="row">
+                <ul class ="footer_social_links">
+                    <li class ="foot_link_item">
+                        <a href="https://dotiocat.itch.io/" title="Link to itch.io Profile">
+                            <img class="footer_icon" src="/images/itchio-logo.png" alt="itch.io">
+                        </a>
+                    </li>
+                    <li class ="foot_link_item">
+                        <a href="https://www.linkedin.com/in/ognjen-stani%C4%87-247b76208/" title="Link to Linkedin Profile">
+                            <img class="footer_icon" src="/images/LinkedIn_icon.png" alt="Linkedin">
+                        </a>
+                    </li>
+                </ul>
+                <p class="endings">
+                    &copy; 2025 - Website designed and developed by <span>O</span><span>g</span><span>n</span><span>j</span><span>e</span><span>n</span> <span>S</span>.
+                </p>
+            </div>
+            <img src="/images/grixeled.png" class="lilguy" title="You found me!">
+        </footer>
+    <script src="index.js"></script>
+</body>
+</html>
